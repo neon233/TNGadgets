@@ -1,0 +1,325 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		33BA1FA81E811DDD008C75FF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 33BA1FA71E811DDD008C75FF /* main.m */; };
+		33BA1FAB1E811DDD008C75FF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 33BA1FAA1E811DDD008C75FF /* AppDelegate.m */; };
+		33BA1FB11E811DDD008C75FF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 33BA1FAF1E811DDD008C75FF /* Main.storyboard */; };
+		33BA1FB31E811DDD008C75FF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 33BA1FB21E811DDD008C75FF /* Assets.xcassets */; };
+		33BA1FB61E811DDD008C75FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 33BA1FB41E811DDD008C75FF /* LaunchScreen.storyboard */; };
+		33BA1FC21E811EDD008C75FF /* FlipOverViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 33BA1FC11E811EDD008C75FF /* FlipOverViewController.m */; };
+		33BA1FC51E811F1F008C75FF /* FlipDemoCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 33BA1FC41E811F1F008C75FF /* FlipDemoCell.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		33BA1FA31E811DDD008C75FF /* FlipOverDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FlipOverDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		33BA1FA71E811DDD008C75FF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		33BA1FA91E811DDD008C75FF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		33BA1FAA1E811DDD008C75FF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		33BA1FB01E811DDD008C75FF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		33BA1FB21E811DDD008C75FF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		33BA1FB51E811DDD008C75FF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		33BA1FB71E811DDD008C75FF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		33BA1FC01E811EDD008C75FF /* FlipOverViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlipOverViewController.h; sourceTree = "<group>"; };
+		33BA1FC11E811EDD008C75FF /* FlipOverViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FlipOverViewController.m; sourceTree = "<group>"; };
+		33BA1FC31E811F1F008C75FF /* FlipDemoCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlipDemoCell.h; sourceTree = "<group>"; };
+		33BA1FC41E811F1F008C75FF /* FlipDemoCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FlipDemoCell.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		33BA1FA01E811DDD008C75FF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		33BA1F9A1E811DDD008C75FF = {
+			isa = PBXGroup;
+			children = (
+				33BA1FA51E811DDD008C75FF /* FlipOverDemo */,
+				33BA1FA41E811DDD008C75FF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		33BA1FA41E811DDD008C75FF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				33BA1FA31E811DDD008C75FF /* FlipOverDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		33BA1FA51E811DDD008C75FF /* FlipOverDemo */ = {
+			isa = PBXGroup;
+			children = (
+				33BA1FA91E811DDD008C75FF /* AppDelegate.h */,
+				33BA1FAA1E811DDD008C75FF /* AppDelegate.m */,
+				33BA1FAF1E811DDD008C75FF /* Main.storyboard */,
+				33BA1FB21E811DDD008C75FF /* Assets.xcassets */,
+				33BA1FB41E811DDD008C75FF /* LaunchScreen.storyboard */,
+				33BA1FB71E811DDD008C75FF /* Info.plist */,
+				33BA1FA61E811DDD008C75FF /* Supporting Files */,
+				33BA1FC01E811EDD008C75FF /* FlipOverViewController.h */,
+				33BA1FC11E811EDD008C75FF /* FlipOverViewController.m */,
+				33BA1FC31E811F1F008C75FF /* FlipDemoCell.h */,
+				33BA1FC41E811F1F008C75FF /* FlipDemoCell.m */,
+			);
+			path = FlipOverDemo;
+			sourceTree = "<group>";
+		};
+		33BA1FA61E811DDD008C75FF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				33BA1FA71E811DDD008C75FF /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		33BA1FA21E811DDD008C75FF /* FlipOverDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 33BA1FBA1E811DDD008C75FF /* Build configuration list for PBXNativeTarget "FlipOverDemo" */;
+			buildPhases = (
+				33BA1F9F1E811DDD008C75FF /* Sources */,
+				33BA1FA01E811DDD008C75FF /* Frameworks */,
+				33BA1FA11E811DDD008C75FF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FlipOverDemo;
+			productName = FlipOverDemo;
+			productReference = 33BA1FA31E811DDD008C75FF /* FlipOverDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		33BA1F9B1E811DDD008C75FF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = neon;
+				TargetAttributes = {
+					33BA1FA21E811DDD008C75FF = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 58L8W6VGB8;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 33BA1F9E1E811DDD008C75FF /* Build configuration list for PBXProject "FlipOverDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 33BA1F9A1E811DDD008C75FF;
+			productRefGroup = 33BA1FA41E811DDD008C75FF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				33BA1FA21E811DDD008C75FF /* FlipOverDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		33BA1FA11E811DDD008C75FF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				33BA1FB61E811DDD008C75FF /* LaunchScreen.storyboard in Resources */,
+				33BA1FB31E811DDD008C75FF /* Assets.xcassets in Resources */,
+				33BA1FB11E811DDD008C75FF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		33BA1F9F1E811DDD008C75FF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				33BA1FAB1E811DDD008C75FF /* AppDelegate.m in Sources */,
+				33BA1FC51E811F1F008C75FF /* FlipDemoCell.m in Sources */,
+				33BA1FC21E811EDD008C75FF /* FlipOverViewController.m in Sources */,
+				33BA1FA81E811DDD008C75FF /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		33BA1FAF1E811DDD008C75FF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				33BA1FB01E811DDD008C75FF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		33BA1FB41E811DDD008C75FF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				33BA1FB51E811DDD008C75FF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		33BA1FB81E811DDD008C75FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		33BA1FB91E811DDD008C75FF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		33BA1FBB1E811DDD008C75FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 58L8W6VGB8;
+				INFOPLIST_FILE = FlipOverDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = neon.FlipOverDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		33BA1FBC1E811DDD008C75FF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 58L8W6VGB8;
+				INFOPLIST_FILE = FlipOverDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = neon.FlipOverDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		33BA1F9E1E811DDD008C75FF /* Build configuration list for PBXProject "FlipOverDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				33BA1FB81E811DDD008C75FF /* Debug */,
+				33BA1FB91E811DDD008C75FF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		33BA1FBA1E811DDD008C75FF /* Build configuration list for PBXNativeTarget "FlipOverDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				33BA1FBB1E811DDD008C75FF /* Debug */,
+				33BA1FBC1E811DDD008C75FF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 33BA1F9B1E811DDD008C75FF /* Project object */;
+}
