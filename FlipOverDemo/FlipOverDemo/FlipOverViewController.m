@@ -39,9 +39,6 @@ static const CGFloat cellPadding = 15;
 - (void)viewDidLoad {
     [super viewDidLoad];
     [self.view addSubview:self.flipView];
-    
-
-    
 }
 
 - (void)didReceiveMemoryWarning {
@@ -50,8 +47,6 @@ static const CGFloat cellPadding = 15;
 }
 
 #pragma mark collectionview delegate
-
-
 
 - (UIEdgeInsets)collectionView:(UICollectionView *)collectionView layout:(UICollectionViewLayout*)collectionViewLayout insetForSectionAtIndex:(NSInteger)section {
     return UIEdgeInsetsMake(0, (VIEWWIDTH-cellWidth)/2, 0, (VIEWWIDTH-cellWidth)/2);
@@ -82,7 +77,6 @@ static const CGFloat cellPadding = 15;
     return cell;
 }
 
-
 - (void)scrollViewWillEndDragging:(UIScrollView *)scrollView
                      withVelocity:(CGPoint)velocity
               targetContentOffset:(inout CGPoint *)targetContentOffset
@@ -96,10 +90,12 @@ static const CGFloat cellPadding = 15;
     if (velocity.x < 0) {
         page--;
     }
-
+    
+    //避免越界
     page = MAX(page,0);
     page = MIN(page, VIEWCOUNT-1);
     
+    //一次只滑动一页
     if (page>self.currentPape) {
         self.currentPape++;
     }else if(page<self.currentPape){
@@ -130,6 +126,7 @@ static const CGFloat cellPadding = 15;
 
 
 #pragma mark getter&&setter
+
 - (UICollectionView *)flipView {
     if (!_flipView) {
         _flipView = [[UICollectionView alloc]initWithFrame:self.view.frame collectionViewLayout:self.flipLayout];
