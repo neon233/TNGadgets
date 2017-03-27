@@ -10,6 +10,7 @@
 - 支持用户锁定旋转时，用户可以点击转屏按钮来横屏/竖屏查看图片、放大图片
 
 #####日常说明
+
 整个demo比较麻烦的点是在横竖屏切换的时候，需要更新整个布局的frame。所以布局这一块，可以多采用Autolayout，横竖屏切换的布局变化，交给Autolayout来处理。图片放大缩小的时候，需要保证始终处于居中状态，所以在scrollViewDidZoom要实时更新frame，并且为了保证每一张图片能够完整的显示在屏幕上，会在updateZoomImageViewFrame方法中等比缩放图片。
 
 ### FlipOverDemo
